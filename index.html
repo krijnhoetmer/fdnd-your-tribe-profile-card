@@ -1,48 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
+<html lang="nl">
+ <head>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FDND Visitekaartje</title>
-  <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
-
-<article>
-  <header>
-    <h1>Krijn Hoetmer</h1>
-    <p><em>Creative Frontend Developer in spé</em></p>
-    <button>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-        <path d="M4 8v-2a2 2 0 0 1 2 -2h2" />
-        <path d="M4 16v2a2 2 0 0 0 2 2h2" />
-        <path d="M16 4h2a2 2 0 0 1 2 2v2" />
-        <path d="M16 20h2a2 2 0 0 0 2 -2v-2" />
-      </svg>
-
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="red" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-        <path d="M15 19v-2a2 2 0 0 1 2 -2h2" />
-        <path d="M15 5v2a2 2 0 0 0 2 2h2" />
-        <path d="M5 15h2a2 2 0 0 1 2 2v2" />
-        <path d="M5 9h2a2 2 0 0 0 2 -2v-2" />
-      </svg>
-    </button>
-
-  </header>
-  
-  <img src="https://krijnhoetmer.nl/krijn.jpg" alt="Krijn Hoetmer" width="100" height="100">
-
-  <dl>
-    <dt>HTML</dt><dd>⭐️</dd>
-    <dt>CSS</dt><dd>⭐️</dd>
-    <dt>JavaScript</dt><dd>⭐️</dd>
-  </dl>
-  
-  <p>Het WEB is te gek! <br> Met HTML, CSS en JavaScript kan ik vette, interactieve web apps maken.</p>
-</article>
-
-  <script src="./scripts/script.js"></script>
-</body>
+  <style>
+   html { display: grid; place-content: center; min-height: 100%; font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif; background: rebeccapurple; color: #333; line-height: 1.2; }
+   body { display: grid; place-content: center; margin: 1em; padding: 1em; background: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, .8); }
+   h1 { margin: 0; }
+   p { margin: 0; }
+   em { display: block; margin: .5em 0 0; font-size: 1.3em; font-style: normal; }
+   img { display: block; margin: 1em auto; border-radius: 50%; }
+   @media (min-width: 20rem) {
+    img { float: left; margin: 0 1em 0 0; }
+   }
+  </style>
+ </head>
+ <body>
+  <main>
+   <img src="https://krijnhoetmer.nl/krijn.jpg" alt="" width="100" height="100">
+   <h1>Krijn Hoetmer</h1>
+   <p>Freelance web ontwikkelaar &amp; organisator van congressen</p>
+   <p><em>👨‍💻 🏸 👯‍♀️ 🪚 🚴‍♂️</em></p>
+  </main>
+ </body>
 </html>
